@@ -60,7 +60,7 @@ public class HotelesTest extends SeleniumTestBase {
         homePage.irAHoteles();
         hotelesPage.casoPrueba4("Barcelona, España");
     }
-
+    //
     //Test complejidad alta
     @Test
     public void CP005_HotelYVueloCF_() throws InterruptedException{
