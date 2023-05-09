@@ -59,8 +59,7 @@ public class HotelesPage extends SeleniumWrapper {
         Thread.sleep(5000);
     }
     //Localizadores
-    public void casoPrueba3(){
-        //
+    /*public void casoPrueba3(){
     }
 
     //Localizadores
@@ -74,11 +73,9 @@ public class HotelesPage extends SeleniumWrapper {
 
     //Localizadores
     public void casoPrueba5(){
-        //
     }
 
     //Localizadores
     public void casoPrueba6(){
-        //
-    }
+    }*/
 }

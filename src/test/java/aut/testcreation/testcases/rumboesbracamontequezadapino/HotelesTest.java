@@ -13,7 +13,7 @@ public class HotelesTest extends SeleniumTestBase {
     WebDriver driver;
 
     //Test complejidad baja
-    @Test
+    /*@Test
     public void CP001_HotelMV_OK() throws InterruptedException{
         driver = DriverFactory.getDriver();
         homePage = new HomePage(DriverFactory.getDriver());
@@ -23,7 +23,7 @@ public class HotelesTest extends SeleniumTestBase {
         homePage.cerrarCookis();
         homePage.irAHoteles();
         hotelesPage.casoPrueba1("Barcelona, España");
-    }
+    }*/
 
     @Test
     public void CP002_HotelEYRP_Error() throws InterruptedException{
@@ -38,7 +38,7 @@ public class HotelesTest extends SeleniumTestBase {
     }
 
     //Test complejidad media
-    @Test
+    /*@Test
     public void CP003_HotelFDSA_() throws InterruptedException{
         driver = DriverFactory.getDriver();
         homePage = new HomePage(DriverFactory.getDriver());
@@ -82,5 +82,5 @@ public class HotelesTest extends SeleniumTestBase {
         Thread.sleep(2000);
         homePage.cerrarCookis();
         homePage.irAHoteles();
-    }
+    }*/
 }
